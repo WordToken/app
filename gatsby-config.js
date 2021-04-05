@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: "https://www.wordtoken.com",
     title: "earn.wordtoken.com",
   },
   plugins: [

@@ -7,7 +7,6 @@ import HeroImage from 'src/assets/alphabet.png'
 
 
 
-
 const HomePage = () => {
 
   return (
@@ -30,7 +29,6 @@ const HomePage = () => {
                 <div className="col-lg-5 ml-auto d-none d-lg-block">
                   <img src={HeroImage} alt="img" />
                 </div>
-
               </div>
             </div>
         </header>
