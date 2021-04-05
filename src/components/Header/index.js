@@ -2,6 +2,7 @@ import * as React from 'react'
 import styled from 'styled-components'
 
 import Button from 'src/components/Button'
+import Logo from 'src/assets/WordToken-Logo.png'
 
 // import Web3 from 'web3'
 
@@ -44,7 +45,8 @@ const Header = () => {
 
                         <div className="navbar-left mr-4">
                             <button className="navbar-toggler" type="button"><span className="navbar-toggler-icon"></span></button>
-                            <a className="navbar-brand" href="/">
+                            <img className="logo" src={Logo} />
+                            <a className="navbar-brand logo-text" href="/">
                                 Word Token
                                 </a>
                         </div>
