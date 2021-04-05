@@ -2,6 +2,10 @@
     border-radius: 6px;
 }
 
+.btn.disabled {
+    cursor: not-allowed;
+}
+
 .twitter-icon img, .discord-icon img {
     max-width: 50px;
 }
@@ -15,3 +19,4 @@
     font-weight: 600;
     line-height: 3;
 }
+
