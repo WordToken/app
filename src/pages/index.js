@@ -6,11 +6,10 @@ import Layout from '../components/Layout'
 import HeroImage from 'src/assets/alphabet.png'
 
 
-
 const HomePage = () => {
 
   return (
-    <Layout>
+    <Layout pageTitle="Word Token | Play Word Games. Earn $WORD Tokens.">
           <header className="header h-fullscreen" style={{backgroundImage: "linear-gradient(135deg, #f9f7ff 0%, #fff 50%, #f6f3ff 100%)"}}>
             <div className="container">
               <div className="row align-items-center h-100">

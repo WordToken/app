@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.wordtoken.com",
-    title: "earn.wordtoken.com",
+    title: "Word Token",
+    description: "Play Word Games. Earn $WORD Tokens.",
   },
   plugins: [
     "gatsby-plugin-styled-components",
