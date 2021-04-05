@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import DiscordIcon from 'src/assets/discord-icon.png'
 import TwitterIcon from 'src/assets/twitter-icon.png'
+import Logo from 'src/assets/WordToken-Logo.png'
 
 
 const Footer = () => {
@@ -11,7 +12,8 @@ const Footer = () => {
                     <div className="row gap-y">
                         <div className="col-md-6 col-xl-4">
                             <div className="footer-logo">
-                                <a className="navbar-brand" href="/">Word Token</a>
+                                <img className="logo" src={Logo} />
+                                <a className="navbar-brand logo-text" href="/">Word Token</a>
                             </div>
 
                             <p>Solve complex word problems and earn $WORD tokens which can be redeemed for limited edition NFT's.</p>
